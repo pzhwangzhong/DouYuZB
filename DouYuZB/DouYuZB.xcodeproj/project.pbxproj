@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		539595641E137B6A0002EC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539595631E137B6A0002EC02 /* AppDelegate.swift */; };
-		539595661E137B6A0002EC02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539595651E137B6A0002EC02 /* ViewController.swift */; };
 		539595691E137B6A0002EC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 539595671E137B6A0002EC02 /* Main.storyboard */; };
 		5395956B1E137B6A0002EC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5395956A1E137B6A0002EC02 /* Assets.xcassets */; };
 		5395956E1E137B6A0002EC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5395956C1E137B6A0002EC02 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		539595601E137B6A0002EC02 /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		539595631E137B6A0002EC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		539595651E137B6A0002EC02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		539595681E137B6A0002EC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5395956A1E137B6A0002EC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5395956D1E137B6A0002EC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +33,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5311A4661E30FBD9008A57F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5311A46A1E30FBD9008A57F1 /* Main */,
+				5311A4681E30FBD9008A57F1 /* Home */,
+				5311A4691E30FBD9008A57F1 /* Live */,
+				5311A4671E30FBD9008A57F1 /* Follow */,
+				5311A46B1E30FBD9008A57F1 /* Profile */,
+				5311A46C1E30FBD9008A57F1 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5311A4671E30FBD9008A57F1 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		5311A4681E30FBD9008A57F1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5311A4691E30FBD9008A57F1 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		5311A46A1E30FBD9008A57F1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5311A46B1E30FBD9008A57F1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5311A46C1E30FBD9008A57F1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		539595571E137B6A0002EC02 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +107,8 @@
 		539595621E137B6A0002EC02 /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
+				5311A4661E30FBD9008A57F1 /* Classes */,
 				539595631E137B6A0002EC02 /* AppDelegate.swift */,
-				539595651E137B6A0002EC02 /* ViewController.swift */,
 				539595671E137B6A0002EC02 /* Main.storyboard */,
 				5395956A1E137B6A0002EC02 /* Assets.xcassets */,
 				5395956C1E137B6A0002EC02 /* LaunchScreen.storyboard */,
@@ -137,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				539595661E137B6A0002EC02 /* ViewController.swift in Sources */,
 				539595641E137B6A0002EC02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = JQU57UMZXW;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -276,7 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = JQU57UMZXW;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
